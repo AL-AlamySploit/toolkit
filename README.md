@@ -9,7 +9,7 @@ chmod +x *
 
 ./install.sh
 
-python a.7.y-tools
+python a7y-tools
 
 # USING FOR THE TOOL IN KALI LINUX (LINUX) 
 
@@ -19,7 +19,7 @@ chmod +x *
 
 ./install.sh
 
-sudo python3 a.7.y-tools
+sudo python3 a7y-tools
 
 
 #A.7.Y-TEAM
