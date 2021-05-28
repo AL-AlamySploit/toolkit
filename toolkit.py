@@ -418,12 +418,10 @@ if root2 == "c":
 	system("clear")
 	print("Welcome In Your Home, "+user)
 if root2 == "exit":
-	system("clear")
-	log()
 	system("exit")
 if root2 == "banner":
 	system("clear")
-	log()
+	banner()
 if root2 == "update":
 	system("clear")
 	log()
