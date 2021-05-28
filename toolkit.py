@@ -14,7 +14,7 @@ from random import *
 co = Color()
 clr = system("clear")
 def log():
-	print(""" 
+	print(""" +B
 	┌┬┐┌─┐┌─┐┬  ┬┌─┬┌┬┐  ┬ ┬
          │ │ ││ ││  ├┴┐│ │───└┬┘
          ┴ └─┘└─┘┴─┘┴ ┴┴ ┴    ┴   
@@ -23,7 +23,7 @@ log()
 h = "\x1b[0;32mNote :- \x1b[0;31mPlease Enter 'help' to show options ."
 print(h)
 while True:
-	root = input ("""\x1b[0;32mA7Y\x1b[0;36m@\x1b[0;31mTOOLS \x1b[0;35m*/\x1b[0;33m$ """)
+	root = input ("""\x1b[0;32mA.7.Y > """)
 	if root == "help":
 		print("""
 	\x1b[1;30m1. Games
