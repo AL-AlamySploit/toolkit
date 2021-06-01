@@ -1,4 +1,5 @@
 #!/bin/python3
+#\x1b[0;32mA7Y\x1b[0;36m@\x1b[0;31mTOOLS \x1b[0;35m*/\x1b[0;33m$
 W="\x1b[1;37m"#White
 R="\x1b[0;32m" #red
 B="\x1b[1;34m" #blue
@@ -88,20 +89,20 @@ while True:
 			print ("Random Number Is ^^^ ")
 			lose = "You Are The Loser, "+usr
 			print (lose)
-			print ("Good Luck ... ")
+
 	if root == "full_net":
 		system("clear")
 		log()
 		print (" checking ..... ")
 		system("nmap 192.168.1.*")
-		print ("Good Bye ^_^ ")
+
 	if root == "cyop":
 		system("clear")
 		log()
 		ipp = input("Enter Your Ip :- ")
 		print ("your ip is : "+ipp)
 		system("nmap --open "+ipp)
-		print ("Good Bye ^_^ ")
+
 	if root == "chep":
 		system("clear")
 		log()
@@ -109,19 +110,19 @@ while True:
 		print ("your ip is :- ")
 		v = input ("Enter Check Port :- ")
 		system("nmap -p "+v+" "+y)
-		print ("Good Bye ^_^ ")
+
 	if root == "ax":
 		system("clear")
 		log()
 		h = input("Enter Your Ip :- ")
 		system("nmap "+h+" "+"-A")
-		print ("Good Bye ^_^ ")
+
 	if root == "kr":
 		system("clear")
 		log()
 		gate = input("Enter Your Gateway :- ")
 		system("nmap -O "+gate)
-		print ("Good Bye ^_^ ")
+
 	if root == "host":
 		import socket
 		import sys
@@ -131,22 +132,25 @@ while True:
 		ip = socket.gethostbyname(hist)
 		print ("Your Target Is :- "+hist)
 		print ("Host Your Target Is :- "+ip)
-		print ("Good Bye ^_^ ")
+
 	if root == "who":
 		system("clear")
 		log()
 		piw = input("Enter Your Target :- ")
 		system("whois "+piw)
-		print ("Good Bye ^_^ ")
+
 	if root == "c":
 		system("clear")
-		user = input("Enter Your User :- ")
+		user = input("Enter Your User : ")
 		system("clear")
+		log()
 		print("Welcome In Your Home, "+user)
+		
 	if root == "exit":
 		system("clear")
 		log()
-		system("exit")
+		print("Goodbye, bro..!")
+		exit()
 	if root == "banner":
 		system("clear")
 		log()
@@ -154,19 +158,19 @@ while True:
 		system("clear")
 		log()
 		system("sudo apt-get update -y")
-		print("Good Bye ^_^ ")
+
 	if root == "upgrade":
 		system("clear")
 		log()
 		system("sudo apt-get upgrade -y")
-		print("Good Bye ^_^ ")
+
 	if root == "about":
 		system("clear")
 		log()
 		print ("My Name :- Sam ")
 		print ("Name My Team :- A.7.Y Team")
 		print ("Name Codder :- Mr. Sfx")
-		print ("Good Bye ^_^ ")
+
 	if root == "v":
 		system("clear")
 		log()
@@ -178,34 +182,34 @@ while True:
 		print ("Name Of The Team :- A.7.Y Team")
 		print ("Contry :- AL ARAB")
 		print ("Admin User :- @AL_Alamy ")
-		print("Good Bye ^_^ ")
+
 	if root == "ch":
 		system("clear")
 		log()
 		system("bash ch.sh")
-		print("Good Bye ^_^ ")
+
 	if root == "telg":
 		system("clear")
 		log()
 		system("bash telg.sh")
-		print("Good Bye ^_^ ")
+
 	if root == "aupdate":
 		system("clear")
 		log()
 		system("sudo apt-get update -y")
 		print("The Tool Has Been Update ... ")
-		print ("Good Bye ^_^ ")
+
 	if root == "aupgrade":
 		system("clear")
 		log()
 		print("The Tool No Upgrade ... ")
-		print ("Good Bye ^_^ ")
+
 	if root == "v_os":
 		system("clear")
 		log()
 		system("cat /etc/os-release")
-		print("Good Bye ^_^ ")
-root1 = input ("""\x1b[0;32mA7Y\x1b[0;36m@\x1b[0;31mTOOLS \x1b[0;35m*/\x1b[0;33m$ """)
+
+root1 = input ("""\x1b[0;32mA.7.Y > """)
 if root1 == "rg":
 	rand = randint(0,10)
 	clear = system("clear")
@@ -225,20 +229,20 @@ if root1 == "rg":
 		print ("Random Number Is ^^^ ")
 		lose = "You Are The Loser, "+usr
 		print (lose)
-		print ("Good Luck ... ")
+		
 if root1 == "full_net":
 	system("clear")
 	log()
 	print (" checking ..... ")
 	system("nmap 192.168.1.*")
-	print ("Good Bye ^_^ ")
+
 if root1 == "cyop":
 	system("clear")
 	log()
 	ipp = input("Enter Your Ip :- ")
 	print ("your ip is : "+ipp)
 	system("nmap --open "+ipp)
-	print ("Good Bye ^_^ ")
+
 if root1 == "chep":
 	system("clear")
 	log()
@@ -246,19 +250,19 @@ if root1 == "chep":
 	print ("your ip is :- ")
 	v = input ("Enter Check Port :- ")
 	system("nmap -p "+v+" "+y)
-	print ("Good Bye ^_^ ")
+
 if root1 == "ax":
 	system("clear")
 	log()
 	h = input("Enter Your Ip :- ")
 	system("nmap "+h+" "+"-A")
-	print ("Good Bye ^_^ ")
+
 if root1 == "kr":
 	system("clear")
 	log()
 	gate = input("Enter Your Gateway :- ")
 	system("nmap -O "+gate)
-	print ("Good Bye ^_^ ")
+
 if root1 == "host":
 	import socket
 	import sys
@@ -268,13 +272,13 @@ if root1 == "host":
 	ip = socket.gethostbyname(hist)
 	print ("Your Target Is :- "+hist)
 	print ("Host Your Target Is :- "+ip)
-	print ("Good Bye ^_^ ")
+
 if root1 == "who":
 	system("clear")
 	log()
 	piw = input("Enter Your Target :- ")
 	system("whois "+piw)
-	print ("Good Bye ^_^ ")
+
 if root1 == "c":
 	system("clear")
 	user = input("Enter Your User :- ")
@@ -283,7 +287,7 @@ if root1 == "c":
 if root1 == "exit":
 	system("clear")
 	log()
-	system("exit")
+	exit()
 if root1 == "banner":
 	system("clear")
 	log()
@@ -291,7 +295,7 @@ if root1 == "update":
 	system("clear")
 	log()
 	system("sudo apt-get update -y")
-	print("Good Bye ^_^ ")
+
 if root1 == "upgrade":
 	system("clear")
 	log()
